@@ -125,5 +125,5 @@ unclassified:
     useTls: false
   pollSCM:
     pollingThreadCount: 10
-includes:
-   - tools.yaml
+tool:
+${readFile:tools.yaml}

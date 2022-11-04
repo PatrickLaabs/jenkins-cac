@@ -1,4 +1,3 @@
-tool:
   git:
     installations:
     - home: "git"

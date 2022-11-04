@@ -1,10 +1,1 @@
 tool:
-  maven:
-    installations:
-      - name: maven3
-        home: "/maven3"
-        properties:
-          - installSource:
-              installers:
-                - maven:
-                    id: "3.8.4"
