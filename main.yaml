@@ -104,7 +104,7 @@ unclassified:
     configuredBuildDiscarders:
     - "jobBuildDiscarder"
   casCGlobalConfig:
-    configurationPath: "http://raw.githubusercontent.com/PatrickLaabs/jenkins-cac/main/jdk/jdk.yaml"
+    configurationPath: "https://raw.githubusercontent.com/PatrickLaabs/jenkins-cac/main/main.yaml"
   fingerprints:
     fingerprintCleanupDisabled: false
     storage: "file"
@@ -125,20 +125,5 @@ unclassified:
     useTls: false
   pollSCM:
     pollingThreadCount: 10
-tool:
-  git:
-    installations:
-    - home: "git"
-      name: "Default"
-  mavenGlobalConfig:
-    globalSettingsProvider: "standard"
-    settingsProvider: "standard"
-  jdk:
-    installations:
-      - name: jdk11
-        home: "/jdk"
-      #  properties:
-        #  - installSource:
-            #  installers:
-              #  - adoptOpenJdkInstaller:
-                #    id: "jdk-11.0.14+9"
+includes:
+   - tools.yaml
