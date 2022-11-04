@@ -1,4 +1,4 @@
-# tool:
+tool:
   git:
     installations:
     - home: "git"
