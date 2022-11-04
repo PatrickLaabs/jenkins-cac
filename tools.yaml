@@ -7,6 +7,12 @@ tool:
     installations:
     - home: "/jdk"
       name: "jdk11"
-  mavenGlobalConfig:
-    globalSettingsProvider: "standard"
-    settingsProvider: "standard"
+  maven:
+    installations:
+      - name: maven3
+        home: "/maven3"
+        properties:
+          - installSource:
+              installers:
+                - maven:
+                    id: "3.8.4"
