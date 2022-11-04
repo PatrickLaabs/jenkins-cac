@@ -137,8 +137,8 @@ tool:
     installations:
       - name: jdk11
         home: "/jdk"
-        properties:
-          - installSource:
-              installers:
-                - adoptOpenJdkInstaller:
-                    id: "jdk-11.0.14+9"
+      #  properties:
+        #  - installSource:
+            #  installers:
+              #  - adoptOpenJdkInstaller:
+                #    id: "jdk-11.0.14+9"
